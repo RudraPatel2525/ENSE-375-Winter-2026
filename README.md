@@ -70,6 +70,8 @@ Agenda: Brainstorm Software Application
 | Rudra | N/A | N/A | Set up Github, and invite members |
 | Rida | N/A | N/A | Brainstorm ideas |
 
+* Youssef had not yet been added to the team.
+
 ### 4.2 Meeting 2
 
 Time: Jan 14, 2026 9:20pm to 9:35pm
@@ -79,6 +81,8 @@ Agenda: Decide on Software Application
 | Nathan | Set meeting with proffessor | Done| Finish problem definition |
 | Rudra | Set up Github, and invite members | Done | Meet and discuss application function, objectives, and constraints|
 | Rida | Brainstorm ideas | done | Meet and discuss application function, objectives, and constraints |
+
+* Youssef had not yet been added to the team.
 
 
 
