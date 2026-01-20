@@ -93,14 +93,14 @@ Agenda: Decide on Software Application
 
 ### 4.3 Meeting 3
 
-Time: Jan 20, 2026 11:45m to 12:15pm
+Time: Jan 20, 2026 11:45m to 1:00pm
 Agenda: Discuss application function, requirements, objectives, constraints, and name.
 | Team Member | Previous Task | Completion State | Next Task |
 |------------|---------------|------------------|-----------|
-| Nathan |Finish problem definition | Done|  |
-| Rudra | Meet and discuss application function, objectives, and constraints | Done | |
-| Rida | Meet and discuss application function, objectives, and constraintss | Done |  |
-| Youssef | Meet and discuss application function, objectives, and constraints | Done |  |
+| Nathan |Finish problem definition | Done| Finish Section 2.2.1 Functions |
+| Rudra | Meet and discuss application function, objectives, and constraints | Done | Finish Section 2.2.3 Constraints|
+| Rida | Meet and discuss application function, objectives, and constraintss | Done | Finish Section 2.2.2 Objectives |
+| Youssef | Meet and discuss application function, objectives, and constraints | Done | Finish Section 2.2.3 Constraints|
 
 
 
