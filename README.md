@@ -76,16 +76,18 @@ To achieve these objectives, the project will:
 - Use a minimalist UI/interface to keep focus on validation, verification, and system behavior rather than aesthetics.
 
 ### 2.2.3 Constraints
+| Constraint Category | Description |
+|-------------------|-------------|
+| UI / Interface | The application will use a simple, minimalist interface (text-based or basic GUI). UI design prioritizes functionality and testability over aesthetics. No advanced frontend frameworks or UI-heavy features will be used. |
+| Regulatory Compliance (Security & Access) | Age restrictions must be strictly enforced based on user input. The system must comply with basic data protection principles and must not store any personally identifiable information (PII) such as real names, emails, or listening history. |
+| Reliability & Determinism | Given identical inputs (e.g., Mood: Happy, Time: Morning), the state machine must traverse the exact same sequence of states and produce identical playlist rules and outputs every time. |
+| Input Constraints | User inputs must be restricted to a fixed, predefined set, including mood, explicit/non-explicit preference, genre, playlist size, and playlist duration. |
+| Data Constraints | The system must operate on a static or predefined dataset of music metadata (e.g., genre, mood tags, age ratings) and must not rely on live streaming services or external APIs. |
+| Architecture & Testability | The system must be designed using a modular MVC architecture to support Test Driven Development (TDD), comprehensive testing, and deterministic verification. |
+| Version Control | Git must be used for version control throughout the entire development process. |
+| Economic Constraints | The application must be developed using open-source tools and libraries only, with no paid APIs or licensing costs. Deployment must be possible on a low-cost hosting platform or via self-hosting, with scalability to moderate traffic. |
+| Societal & Ethical Considerations | The application must be inclusive and neutral, avoiding cultural, gender, or demographic bias in playlist generation logic and rule definitions. |
 ---
-| Constraint | Description |
-|----------|----------|
-| UI / Interface Constraints | <ul><li>The application will use a simple, minimalist interface (text-based or basic GUI).</li><li>
-UI design prioritizes functionality and testability over visual design.</li><li>No advanced frontend frameworks or UI-heavy features will be used.</li></ul> | 
-| Regulatory Compliance (Security & Access) | <ul><li>Age restrictions must be strictly enforced based on user input.</li><li>The system must comply with basic data protection principles:</li><li>No storage of personally identifiable information (PII) such as real names, emails, or listening history.</li><li>All inputs are transient and used solely for playlist generation logic.</li></ul>| 
-| Reliability & Determinism |  |
-| Technical & Development Constraints | |
-| Economic Constraints | |
-| Societal & Ethical Considerations | |
 
 ## 3.0 Solution
 
