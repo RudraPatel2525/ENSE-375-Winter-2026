@@ -56,9 +56,28 @@ The primary function of the Playlist Generator are as follows...
 - Display the generated playlist, without saving
 
 ### 2.2.2 Objectives
+The primary motivation for this project is to practice and demonstrate rigorous software testing and validation techniques in a controlled, realistic setting. The project is intentionally designed to emphasize deterministic, testable logic over UI complexity or data persistence.
+Specifically, this project aims to:
+- Apply Test-Driven Development (TDD) throughout the development lifecycle.
+- Use a state-machine–based design to support required testing methods such as state transition testing.
+- Implement a discrete, rule-based system to ensure deterministic behavior and verifiable outcomes.
+- Maintain a realistic yet manageable scope suitable for comprehensive verification.
+- Prioritize core logic and backend behavior over UI and database implementation to focus on testing quality rather than presentation.
+
+To achieve these objectives, the project will:
+- Develop a testable MVC architecture, ensuring modularity and separation of concerns to support TDD.
+- Implement comprehensive testing suites, including:
+    - Unit and Path Testing to verify internal logic and control flow.
+    - Black-Box Testing, applying boundary value analysis and equivalence class testing to user inputs (e.g., age, mood, genre).
+    - State Transition Testing to verify correct transitions between system states (e.g., Selection → Generation → Error).
+- Ensure deterministic system behavior, enabling reliable automation and repeatable test results.
+- Address regulatory and ethical design constraints, such as enforcing age-based restrictions.
+- Maintain strict requirement-to-test traceability through a traceability matrix that links each requirement to one or more test cases (Features without explicit requirements will not be implemented).
+- Use a minimalist UI/interface to keep focus on validation, verification, and system behavior rather than aesthetics.
 
 ### 2.2.3 Constraints
-
+**| Constraint | Description |**
+| UI / Interface Constraints | - The application will use a simple, minimalist interface (text-based or basic GUI). - UI design prioritizes functionality and testability over visual design. - No advanced frontend frameworks or UI-heavy features will be used. |
 ---
 
 ## 3.0 Solution
