@@ -111,8 +111,6 @@ What test suits did you design to test your prototype? How did you execute the t
 ### 3.3.4	Limitations
 Every product has some limitations, and so is the case with your design product. Highlight some of the limitations of your solution here. 
 
-<img width="468" height="568" alt="image" src="https://github.com/user-attachments/assets/17b6b76e-1ff5-4450-b3c5-5c71da133e48" />
-
 --
 
 ## 4.0 Team Work
