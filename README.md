@@ -153,14 +153,14 @@ Agenda: Discuss application function, requirements, objectives, constraints, and
 
 ### 4.3 Meeting 4
 
-Time: Feb 5, 2026 11:40 am to 1:00 pm
-Agenda: Discuss application function, requirements, objectives, constraints, and name.
+Time: Feb 5, 2026, 11:40 am to 1:00 pm
+Agenda: Discuss different design processes, trade-offs, complexity, and testability for each solution. 
 | Team Member | Previous Task | Completion State | Next Task |
 |------------|---------------|------------------|-----------|
 | Nathan |Finish problem definition | Done| Finish Section 2.2.1 Functions |
 | Rudra | Meet and discuss application function, objectives, and constraints | Done | Finish Section 2.2.3 Constraints|
 | Rida | Meet and discuss application function, objectives, and constraintss | Done | Finish Section 2.2.2 Objectives |
-| Youssef | Meet and discuss application function, objectives, and constraints | Done | Finish Section 2.2.3 Constraints|
+| Youssef | Meet and discuss diffrent soloutions, wrote soloution 1 pros and cons | Done | Finish Section 3.3.1 Solution 1|
 
 
 
