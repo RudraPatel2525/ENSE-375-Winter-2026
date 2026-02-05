@@ -90,6 +90,28 @@ To achieve these objectives, the project will:
 ---
 
 ## 3.0 Solution
+In this section, you will provide an account of some solutions your team brainstormed to implement and test the project. Some solutions might not have all the desired features, some might not satisfy the constraints, or both. These solutions come up in your mind while you brainstorm ways of implementing all the features while meeting the constraints. Towards, the end you select a solution that you think has all the features, testable and satisfies all the constraints. Remember that an engineering design is iterative in nature! 
+### 3.1	Solution 1
+Write a brief description of your first solution and provide the reasons in terms of testing for not selecting this one. 
+### 3.2	Solution 2
+This is an improved solution but might not be the final solution that you select. Give a brief description of this solution here. Again focus on its testing attributes. 
+
+### 3.3	Final Solution
+This is the final solution.  Explain why it is better than other solutions (focus more on testing). You may use a table for comparison purposes. After providing the reason for selecting this solution, detail it below.
+
+### 3.3.1	Components
+What components you used in the solution? What is the main purpose of using individual component? What testing method did you employ for each component? Provide a block diagram (with a numbered caption, such as Fig. 1) representing the connectivity and interaction between all the components.
+
+### 3.3.2	Environmental, Societal, Safety, and Economic Considerations
+Explain how your engineering design took into account environmental, societal, economic and other constraints into consideration. It may include how your design has positive contributions to the environment and society? What type of economic decisions you made? How did you make sure that the design is reliable and safe to use? 
+
+### 3.3.3	Test Cases and results
+What test suits did you design to test your prototype? How did you execute the test cases to test the prototype?
+
+### 3.3.4	Limitations
+Every product has some limitations, and so is the case with your design product. Highlight some of the limitations of your solution here. 
+
+<img width="468" height="568" alt="image" src="https://github.com/user-attachments/assets/17b6b76e-1ff5-4450-b3c5-5c71da133e48" />
 
 --
 
