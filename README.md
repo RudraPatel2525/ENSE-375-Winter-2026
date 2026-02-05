@@ -51,7 +51,7 @@ The primary function of the Playlist Generator are as follows...
 - Accept user input for playlist criteria, including genre, mood, explicit/non-explicit, max playlist size, max playlist duration
 - Read song data and song attributes from a text file
 - Filter songs based on user-defined playlist criteria
-- Use a seeded "shuffle" to generate playlist
+- Use a seeded "shuffle" to generate a playlist
 - Detect and handle cases where insufficient valid songs exist to generate a playlist
 - Display the generated playlist, without saving
 
@@ -92,7 +92,8 @@ To achieve these objectives, the project will:
 ## 3.0 Solution
 In this section, you will provide an account of some solutions your team brainstormed to implement and test the project. Some solutions might not have all the desired features, some might not satisfy the constraints, or both. These solutions come up in your mind while you brainstorm ways of implementing all the features while meeting the constraints. Towards, the end you select a solution that you think has all the features, testable and satisfies all the constraints. Remember that an engineering design is iterative in nature! 
 ### 3.1	Solution 1: Dynamic Web App with External APIs
-Write a brief description of your first solution and provide the reasons in terms of testing for not selecting this one. 
+Description:
+This solution proposed a web-based application featuring a dynamic user interface. Instead of using a static local dataset, this version would utilize external APIs for retrieving song data and leverage a generative AI model (OpenAI) to create the playlists. The goal was to create a highly engaging user experience with a modern feature set.
 ### 3.2	Solution 2
 This is an improved solution but might not be the final solution that you select. Give a brief description of this solution here. Again focus on its testing attributes. 
 
