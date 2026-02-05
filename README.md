@@ -42,7 +42,7 @@
 ## 2.0 Design Problem
 
 ### 2.1 Problem Definition
-This project is defined as the design, development, and comprehensive testing of a playlist generator. The application will generate music playlists based on the users preferences and inputs like mood, time of day, age restricitions, genre, etc. It will use rules and states machines to ensure predictible behaviour, consistent outcomes, and high testability. The focus of the project will not be the UI or the complexity and "taste" of the recommendations themselves but rather the design and implementation of an automated, rule-based system with well defined logic, state machines, and clear constraints. This allows us to apply a wide range of software testing and validation techniques.
+This project is defined as the design, development, and comprehensive testing of a playlist generator. The application will generate music playlists based on the users preferences and inputs like mood, time of day, age restrictions, genre, etc. It will use rules and states machines to ensure predictable behaviour, consistent outcomes, and high testability. The focus of the project will not be the UI or the complexity and "taste" of the recommendations themselves but rather the design and implementation of an automated, rule-based system with well defined logic, state machines, and clear constraints. This allows us to apply a wide range of software testing and validation techniques.
 
 ### 2.2 Design Requirements
 
@@ -91,7 +91,7 @@ To achieve these objectives, the project will:
 
 ## 3.0 Solution
 In this section, you will provide an account of some solutions your team brainstormed to implement and test the project. Some solutions might not have all the desired features, some might not satisfy the constraints, or both. These solutions come up in your mind while you brainstorm ways of implementing all the features while meeting the constraints. Towards, the end you select a solution that you think has all the features, testable and satisfies all the constraints. Remember that an engineering design is iterative in nature! 
-### 3.1	Solution 1
+### 3.1	Solution 1: Dynamic Web App with External APIs
 Write a brief description of your first solution and provide the reasons in terms of testing for not selecting this one. 
 ### 3.2	Solution 2
 This is an improved solution but might not be the final solution that you select. Give a brief description of this solution here. Again focus on its testing attributes. 
@@ -157,10 +157,10 @@ Time: Feb 5, 2026, 11:40 am to 1:00 pm
 Agenda: Discuss different design processes, trade-offs, complexity, and testability for each solution. 
 | Team Member | Previous Task | Completion State | Next Task |
 |------------|---------------|------------------|-----------|
-| Nathan |Finish problem definition | Done| Finish Section 2.2.1 Functions |
-| Rudra | Meet and discuss application function, objectives, and constraints | Done | Finish Section 2.2.3 Constraints|
-| Rida | Meet and discuss application function, objectives, and constraintss | Done | Finish Section 2.2.2 Objectives |
-| Youssef | Meet and discuss diffrent soloutions, wrote soloution 1 pros and cons | Done | Finish Section 3.3.1 Solution 1|
+| Nathan |Finish Section 2.2.1 Functions | Done| FFinish Section 3.3.3 Solution 3 |
+| Rudra | Finish Section 2.2.3 Constraints | Done | Research potential database |
+| Rida | Finish Section 2.2.2 Objectives | Done | Finish Section 3.3.2 Solution 2 |
+| Youssef | Finish Section 2.2.3 Constraints | Done | Finish Section 3.3.1 Solution 1|
 
 
 
