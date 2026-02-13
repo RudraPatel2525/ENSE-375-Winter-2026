@@ -124,7 +124,9 @@ This solution proposed a web-based application featuring a dynamic user interfac
 This is an improved solution but might not be the final solution that you select. Give a brief description of this solution here. Again focus on its testing attributes. 
 
 ### 3.3	Final Solution
-This is the final solution.  Explain why it is better than other solutions (focus more on testing). You may use a table for comparison purposes. After providing the reason for selecting this solution, detail it below.
+The final solution is a command-line based, rule-driven playlist generator that uses a structured text file as a lightweight database. The system collects user preferences (ex: genre, mood, explicity/non-explicit, playlist size) through command-line prompts, filters songs from the database based on those criteria, and generates a playlist automatically. The final playlist is shuffled using a seed-based randomizer to simulate randomness while maintaining repeatability for testing.
+
+This design deliberately narrows the project scope compared to earlier solutions. It removes graphical interfaces and external API integrations in order to prioritize determinism, modularity, and testability. The system is divided into clear components like input handling, filtering logic, etc. This allows sach component to be tested independently
 
 ### 3.3.1	Components
 What components you used in the solution? What is the main purpose of using individual component? What testing method did you employ for each component? Provide a block diagram (with a numbered caption, such as Fig. 1) representing the connectivity and interaction between all the components.
