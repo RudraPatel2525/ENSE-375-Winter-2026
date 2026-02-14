@@ -308,7 +308,7 @@ Time: Feb 5, 2026, 11:40 am to 1:00 pm
 Agenda: Discuss different design processes, trade-offs, complexity, and testability for each solution. 
 | Team Member | Previous Task | Completion State | Next Task |
 |------------|---------------|------------------|-----------|
-| Nathan |Finish Section 2.2.1 Functions | Done| FFinish Section 3.3.3 Solution 3 |
+| Nathan |Finish Section 2.2.1 Functions | Done| Finish Section 3.3.3 Solution 3 |
 | Rudra | Finish Section 2.2.3 Constraints | Done | Research potential database |
 | Rida | Finish Section 2.2.2 Objectives | Done | Finish Section 3.3.2 Solution 2 |
 | Youssef | Finish Section 2.2.3 Constraints | Done | Finish Section 3.3.1 Solution 1|
