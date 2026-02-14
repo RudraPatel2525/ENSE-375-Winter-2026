@@ -124,14 +124,14 @@ This solution proposed a simplified web-based application with a minimal graphic
 - Better Control Over Data: Test datasets can be inserted into MongoDB for validation.
 - Supports Backend Unit Testing: Filtering logic can be tested independently.
 
-### Cons
+#### Cons
 
 - UI Testing Still Required: Web interface requires UI automation testing (Selenium, etc.).
 - Database Dependency: Tests depend on database setup and teardown.
 - Higher Testing Overhead: Requires integration testing between UI, backend, and database.
 - More Configuration Required: MongoDB setup adds environmental complexity.
 
-### Reason for not selecting this solution: 
+#### Reason for not selecting this solution: 
 
 - Database coupling complicates unit testing — requires mock databases or test containers.
 - Web UI still distracts from core testing goals.
@@ -142,97 +142,97 @@ The final solution is a command-line based, rule-driven playlist generator that 
 
 This design deliberately narrows the project scope compared to earlier solutions. It removes graphical interfaces and external API integrations in order to prioritize determinism, modularity, and testability. The system is divided into clear components like input handling, filtering logic, etc. This allows sach component to be tested independently
 
-### 3.3.1	Components
-### Component 1: Input Handler
-### Purpose:
+#### 3.3.1	Components
+#### Component 1: Input Handler
+#### Purpose:
 Collects and validates user input (genre, mood, explicit flag, size).
 ### Testing Method:
 - Unit testing (valid/invalid input cases)
 - Boundary testing (playlist size limits)
 - Path testing (valid vs invalid branches)
 
-### Component 2: Song Database Loader
-### Purpose:
+#### Component 2: Song Database Loader
+#### Purpose:
 Reads songs from structured text file and converts them into Song objects.
 ### Testing Method:
 - File parsing tests
 - Edge case testing (empty file, malformed data)
 - Assertion of correct object creation
 
-### Component 3: Filtering Engine
-### Purpose:
+#### Component 3: Filtering Engine
+#### Purpose:
 Filters songs based on user criteria (genre, mood, explicit, etc.).
 ### Testing Method:
 - Unit testing of each filtering rule
 - Path testing (multiple condition combinations)
 - Assertion testing for correct subset selection
 
-### Component 4: Playlist Generator
-### Purpose:
+#### Component 4: Playlist Generator
+#### Purpose:
 Selects requested number of songs and applies seed-based shuffle.
-### Testing Method:
+#### Testing Method:
 - Deterministic output validation (same seed → same playlist)
 - Boundary testing (requesting more songs than available)
 - State testing (empty filtered list behavior)
 
-### Component 5: Output Formatter
-### Purpose:
+#### Component 5: Output Formatter
+#### Purpose:
 Formats playlist for console display.
-### Testing Method:
+#### Testing Method:
 - String comparison tests
 - Formatting validation
 
 ### 3.3.2	Environmental, Societal, Safety, and Economic Considerations
-### Environmental Considerations
+#### Environmental Considerations
 - No external APIs → reduced server/network dependency.
 - Lightweight design → minimal computational resources.
 - No persistent cloud infrastructure → lower energy footprint.
   
-### Societal Considerations
+#### Societal Considerations
 - Explicit content filtering allows user control.
 - Deterministic behavior avoids unpredictable or biased AI output.
 - Transparent rule-based logic improves trustworthiness.
   
-### Economic Considerations
+#### Economic Considerations
 - No paid APIs or hosting services required.
 - No database licensing costs.
 - Uses open-source tools (Java, JUnit).
   
-### Decision made:
+#### Decision made:
 We deliberately chose a low-cost architecture to avoid financial overhead and ensure accessibility.
 
-### Safety and Reliability
+#### Safety and Reliability
 - Deterministic system ensures predictable outputs.
 - Input validation prevents crashes from invalid entries.
 - Modular design reduces risk of cascading failures.
 - Extensive unit testing ensures reliability.
   
 ### 3.3.3	Test Cases and results
-### Test Suites Designed
-Input Validation Test Suite
+#### Test Suites Designed
+#### Input Validation Test Suite
 - Invalid genre
 - Invalid playlist size
 - Negative numbers
 - Empty input
 
-File Parsing Test Suite
+#### File Parsing Test Suite
 - Properly formatted file
 - Empty file
 - Corrupted line format
 
-Filtering Logic Test Suite
+#### Filtering Logic Test Suite
 - Genre-only filter
 - Mood-only filter
 - Explicit filter ON/OFF
 - Combined criteria
 
-Playlist Generation Test Suite
+#### Playlist Generation Test Suite
 - Deterministic shuffle test (same seed consistency)
 - Different seed produces different order
 - Size > available songs
 - Zero matching songs
 
-Integration Test Suite
+#### Integration Test Suite
 - Full flow simulation
 - Input → filter → generate → output
 ---
