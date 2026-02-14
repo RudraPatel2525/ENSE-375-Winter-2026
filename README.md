@@ -238,7 +238,20 @@ We deliberately chose a low-cost architecture to avoid financial overhead and en
 ---
 
 ### 3.3.4	Limitations
-Every product has some limitations, and so is the case with your design product. Highlight some of the limitations of your solution here. 
+1. Limited User Interface
+No graphical interface reduces user engagement.
+
+2. Static Dataset
+Song database must be manually updated.
+
+3. No AI-Based Recommendations
+Lacks advanced personalization.
+
+4. Scalability Limitations
+Text file database not ideal for large-scale systems.
+
+5. No Real-Time Updates
+Cannot retrieve live trending songs.
 
 --
 
