@@ -142,7 +142,7 @@ The final solution is a command-line based, rule-driven playlist generator that 
 
 This design deliberately narrows the project scope compared to earlier solutions. It removes graphical interfaces and external API integrations in order to prioritize determinism, modularity, and testability. The system is divided into clear components like input handling, filtering logic, etc. This allows sach component to be tested independently
 
-#### 3.3.1	Components
+### 3.3.1	Components
 #### Component 1: Input Handler
 #### Purpose:
 Collects and validates user input (genre, mood, explicit flag, size).
